@@ -7,13 +7,13 @@ public class Trampoline : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-        other.GetComponent.<Jump>().jumpStrenght = 10;
+        other.GetComponent<Jump>().jumpStrenght = 10;
     }
 
 
 
     void OnTriggerEnter(Collider other)
     {
-        other.GetComponent.<Jump>().jumpStrenght = 2;
+        other.GetComponent<Jump>().jumpStrenght = 2;
     }
 }
